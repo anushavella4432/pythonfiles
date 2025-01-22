@@ -1,0 +1,7 @@
+n=int(input('enter a decimal number: '))
+binary=(bin(n))
+octal=oct(n)
+hexa=hex(n)
+print('binary form is',binary)
+print('octal form is',octal)
+print('hexa decimal form is',hexa)
